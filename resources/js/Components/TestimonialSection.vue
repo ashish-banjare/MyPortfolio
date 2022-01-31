@@ -8,7 +8,7 @@
               class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
         </div>
         <!-- Heading end-->
-        <div class="parent-div">
+        <carousel :autoplay="true" :nav="false">
             <div v-for="(value, index) in testimonial" :key="index" class="owl-theme" data-loop="true" data-nav="false" data-autoplay="false" data-margin="20"
             data-stagepadding="0" data-slideby="1" data-items-xs="1" data-items-sm="1" data-items-md="1"
             data-items-lg="2">
@@ -27,13 +27,18 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </carousel>
     </div>
 </template>
 
 <script>
+
+import carousel from 'vue-owl-carousel'
+
 export default {
     name: 'TestimonialSection',
+
+    components: { carousel },
 
     props:{
         testimonial : Array,
