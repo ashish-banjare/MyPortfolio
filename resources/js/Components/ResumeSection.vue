@@ -41,20 +41,22 @@
         <div class="col-md-6">
             <div v-for="(row, index2) in skill_rows" :key="index2">
                 <div v-if="index2 <= 2">
-                    <p class="text-dark font-weight-500 text-left mb-2">{{row.title}} <span class="float-right">{{row.value_now}}%</span></p>
-                    <div class="progress progress-sm mb-4">
+                    <p class="text-dark font-weight-500 text-left mb-2">{{row.title}} <!-- <span class="float-right">{{row.value_now}}%</span> --></p>
+                    <div class="mb-4"></div>
+                    <!-- <div class="progress progress-sm mb-4">
                         <div class="progress-bar" role="progressbar" :style="{'width': row.value_now+'%'}" :aria-valuenow="row.value_now" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
         <div class="col-md-6">
             <div v-for="(row, index2) in skill_rows" :key="index2">
                 <div v-if="index2 > 2">
-                    <p class="text-dark font-weight-500 text-left mb-2">{{row.title}} <span class="float-right">{{row.value_now}}%</span></p>
-                    <div class="progress progress-sm mb-4">
+                    <p class="text-dark font-weight-500 text-left mb-2">{{row.title}} <!-- <span class="float-right">{{row.value_now}}%</span> --></p>
+                    <div class="mb-4"></div>
+                    <!-- <div class="progress progress-sm mb-4">
                         <div class="progress-bar" role="progressbar" :style="{'width': row.value_now+'%'}" :aria-valuenow="row.value_now" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

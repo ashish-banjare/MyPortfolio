@@ -14,83 +14,77 @@ class MyPortfolioController extends Controller
         
         return Inertia::render('myPortfolio', [
             'dev' => [
-                'name'      =>  'Blesh Banz',
-                'email'     =>  'bleshbanz@gmail.com',
-                'mobile'    =>  '1234567890',
+                'name'      =>  'Ashish Banjare',
+                'email'     =>  'ashish.van3591@gmail.com',
+                'mobile'    =>  '8818883436',
                 'image'     =>  url('/').'/images/profile.jpg',
                 'download_cv'     =>  url('/').'/images/download_cv.jpg',
-                'address'   =>  '123, XYZ, ABC, testganj, Indore, Madhya Pradesh 452003',
+                'address'   =>  '285, Geeta Nagar, Dhar Road, Indore, Madhya Pradesh 452002',
                 'city'      =>  'Indore',
                 'country'   =>  'India',
-                'designation'  =>  'Sr. Web Developer',
-                'about_us'  =>  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra pharetra massa massa ultricies mi quis hendrerit.',
-                'experiance_years' => 10,
-                'happy_clinet' => 240,
-                'project_done' => 600,
-                'awards_got' => 20,
+                'designation'  =>  'Web Developer',
+                
+                'about_us'  =>  '
+                I am working as freelancer & web developer from last 4 years, 
+                I Lead a team of experienced web developers who are expertise in HTML, CSS, bootstrap, tailwind, responsive design, PHP, Codeigniter, Laravel, MYSQL, postgresql, web hosting, DBMS etc.
+                I am an eloquent programmer in the field of web development and build UI/UX & SEO friendly websites & also develop business logical web applications which helps to boost business & solve complex business problems more frequently and efficently.',
+
+                'experiance_years' => 4,
+                'happy_clinet' => 8,
+                'project_done' => 16,
+                'awards_got' => 2,
                 'social_media'  =>  [
                     [
                         'title' =>  'LinkedIn',
-                        'url'   =>  'www.linkedin.com',
+                        'url'   =>  'https://www.linkedin.com/in/ashish-banjare-91370777/',
                         'icon'  =>  'fab fa-linkedin'
                     ],
                     [
                         'title' =>  'Twitter',
-                        'url'   =>  'www.twitter.com',
+                        'url'   =>  'https://twitter.com/ashish_banjare7',
                         'icon'  =>  'fab fa-twitter'
                     ],
                     [
                         'title' =>  'Facebook',
-                        'url'   =>  'www.facebook.com',
+                        'url'   =>  'https://www.facebook.com/bleshbanz',
                         'icon'  =>  'fab fa-facebook'
                     ],
                     [
-                        'title' =>  'Google',
-                        'url'   =>  'www.google.com',
-                        'icon'  =>  'fab fa-google'
-                    ],
-                    [
                         'title' =>  'Github',
-                        'url'   =>  'www.github.com',
+                        'url'   =>  'https://github.com/thebleshbanz/',
                         'icon'  =>  'fab fa-github'
                     ],
                 ],
                 'services'  =>  [
                     [
-                        'title' => 'Graphic Design',
-                        'description' => 'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
-                      possim iriure.',
-                      'icon' => 'fas fa-palette',
+                        'title' => 'Web Development',
+                        'description' => 'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.',
+                        'icon' => 'fas fa-palette',
                     ],
                     [
-                        'title' => 'Web Design',
-                        'description' => 'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
-                      possim iriure.',
-                      'icon' => 'fas fa-desktop',
+                        'title' => 'Web Hosting',
+                        'description' => 'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essen possim iriure.',
+                        'icon' => 'fas fa-desktop',
                     ],
                     [
-                        'title' => 'UI/UX Design',
-                        'description' => 'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
-                      possim iriure.',
-                      'icon' => 'fas fa-pencil-ruler',
+                        'title' => 'Restful Api/Web Service',
+                        'description' => 'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.',
+                        'icon' => 'fas fa-pencil-ruler',
                     ],
                     [
-                        'title' => 'App Design &amp; Develop',
-                        'description' => 'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
-                      possim iriure.',
-                      'icon' => 'fas fa-paint-brush',
+                        'title' => 'Web ',
+                        'description' => 'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.',
+                        'icon' => 'fas fa-paint-brush',
                     ],
                     [
                         'title' => 'Business Analysis',
-                        'description' => 'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
-                      possim iriure.',
-                      'icon' => 'fas fa-chart-area',
+                        'description' => 'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essentpossim iriure.',
+                        'icon' => 'fas fa-chart-area',
                     ],
                     [
                         'title' => 'SEO Marketing',
-                        'description' => 'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent
-                      possim iriure.',
-                      'icon' => 'fas fa-bullhorn',
+                        'description' => 'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.',
+                        'icon' => 'fas fa-bullhorn',
                     ],
                 ],
                 'resume'    =>  [

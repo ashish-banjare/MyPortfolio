@@ -23,7 +23,7 @@
                                 <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Home</a></li>
                                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About Me</a></li>
                                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">What I Do</a></li>
-                                <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resume</a></li>
+                                <!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resume</a></li> -->
                                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
                                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#testimonial">Testimonial</a>
                                 </li>
@@ -31,16 +31,15 @@
                             </ul>
                         </div>
                         <ul class="social-icons social-icons-muted social-icons-sm mt-lg-auto ml-auto ml-lg-0 mb-n1 d-flex">
-                            <li class="social-icons-facebook"><a data-toggle="tooltip" href="http://www.facebook.com/"
-                                    target="_blank" title="" data-original-title="Facebook"><i
-                                        class="fab fa-facebook-f"></i></a></li>
-                            <li class="social-icons-twitter"><a data-toggle="tooltip" href="http://www.twitter.com/"
+                            <li class="social-icons-linkedin"><a data-toggle="tooltip" href="https://www.linkedin.com/in/ashish-banjare-91370777/"
+                                    target="_blank" title="" data-original-title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                            <li class="social-icons-twitter"><a data-toggle="tooltip" href="https://twitter.com/ashish_banjare7"
                                     target="_blank" title="" data-original-title="Twitter"><i
                                         class="fab fa-twitter"></i></a></li>
-                            <li class="social-icons-dribbble"><a data-toggle="tooltip" href="http://www.dribbble.com/"
-                                    target="_blank" title="" data-original-title="Dribbble"><i
-                                        class="fab fa-dribbble"></i></a></li>
-                            <li class="social-icons-github"><a data-toggle="tooltip" href="http://www.google.com/"
+                            <li class="social-icons-facebook"><a data-toggle="tooltip" href="https://www.facebook.com/bleshbanz"
+                                    target="_blank" title="" data-original-title="Facebook"><i
+                                        class="fab fa-facebook-f"></i></a></li>
+                            <li class="social-icons-github"><a data-toggle="tooltip" href="https://github.com/thebleshbanz/"
                                     target="_blank" title="" data-original-title="GitHub"><i class="fab fa-github"></i></a>
                             </li>
                         </ul>

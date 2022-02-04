@@ -27,9 +27,9 @@
 
     <!-- Resume
   ============================================= -->
-    <section id="resume" class="section">
+    <!-- <section id="resume" class="section">
       <ResumeSection v-bind:dev = "dev"  />
-    </section>
+    </section> -->
     <!-- Resume end -->
 
     <!-- Portfolio
