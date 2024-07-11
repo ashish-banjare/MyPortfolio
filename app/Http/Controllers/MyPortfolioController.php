@@ -11,21 +11,21 @@ use Inertia\Inertia;
 class MyPortfolioController extends Controller
 {
     public function index(Request $request){
-        
+
         return Inertia::render('myPortfolio', [
             'dev' => [
                 'name'      =>  'Ashish Banjare',
-                'email'     =>  'ashish.van3591@gmail.com',
-                'mobile'    =>  '8818883436',
+                'email'     =>  'ashish.XXXXX@gmail.com',
+                'mobile'    =>  '881888XXXX',
                 'image'     =>  url('/').'/images/profile.jpg',
                 'download_cv'     =>  url('/').'/images/download_cv.jpg',
-                'address'   =>  '285, Geeta Nagar, Dhar Road, Indore, Madhya Pradesh 452002',
+                'address'   =>  '5656, XVZ AVB',
                 'city'      =>  'Indore',
                 'country'   =>  'India',
                 'designation'  =>  'Web Developer',
-                
+
                 'about_us'  =>  '
-                I am working as freelancer & web developer from last 4 years, 
+                I am working as freelancer & web developer from last 4 years,
                 I Lead a team of experienced web developers who are expertise in HTML, CSS, bootstrap, tailwind, responsive design, PHP, Codeigniter, Laravel, MYSQL, postgresql, web hosting, DBMS etc.
                 I am an eloquent programmer in the field of web development and build UI/UX & SEO friendly websites & also develop business logical web applications which helps to boost business & solve complex business problems more frequently and efficently.',
 
@@ -46,7 +46,7 @@ class MyPortfolioController extends Controller
                     ],
                     [
                         'title' =>  'Facebook',
-                        'url'   =>  'https://www.facebook.com/bleshbanz',
+                        'url'   =>  'https://www.facebook.com/',
                         'icon'  =>  'fab fa-facebook'
                     ],
                     [
@@ -138,23 +138,23 @@ class MyPortfolioController extends Controller
                     ],
                     'skills'  =>  [
                         [
-                            'title' => 'Graphic Design', 
+                            'title' => 'Graphic Design',
                             'value_now' => '65',
                         ],
                         [
-                            'title' => 'Web Design', 
+                            'title' => 'Web Design',
                             'value_now' => '75',
                         ],
                         [
-                            'title' => 'UI/UX Design', 
+                            'title' => 'UI/UX Design',
                             'value_now' => '80',
                         ],
                         [
-                            'title' => 'App Design & Develop', 
+                            'title' => 'App Design & Develop',
                             'value_now' => '95',
                         ],
                         [
-                            'title' => 'Business Analysis', 
+                            'title' => 'Business Analysis',
                             'value_now' => '25',
                         ],
                         [
